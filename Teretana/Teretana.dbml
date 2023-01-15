@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="Teretana" Class="TeretanaDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-UVCONGE\SQLSERVER;Initial Catalog=Teretana;Integrated Security=True" SettingsObjectName="Teretana.Properties.Settings" SettingsPropertyName="TeretanaConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Clanarina" Member="Clanarinas">
+    <Type Name="Clanarina">
+      <Column Name="ClanarinaID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NazivClanarine" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CenaClanarine" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="BrojTermina" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Clanarina_Klijent" Member="Klijents" ThisKey="ClanarinaID" OtherKey="ClanarinaID" Type="Klijent" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Dobavljac" Member="Dobavljacs">
+    <Type Name="Dobavljac">
+      <Column Name="DobavljacID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NazivDobavljaca" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BrojTelefona" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Adresa" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Dobavljac_Porudzbenica" Member="Porudzbenicas" ThisKey="DobavljacID" OtherKey="DobavljacID" Type="Porudzbenica" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Klijent" Member="Klijents">
+    <Type Name="Klijent">
+      <Column Name="KlijentID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="Ime" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Prezime" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Sifra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DatumRodjenja" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Adresa" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BrojTelefona" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="ClanarinaID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DatumPocetkaClanarine" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="DatumIstekaClanarine" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="BrojTermina" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Klijent_Racun" Member="Racuns" ThisKey="KlijentID" OtherKey="KlijentID" Type="Racun" />
+      <Association Name="Clanarina_Klijent" Member="Clanarina" ThisKey="ClanarinaID" OtherKey="ClanarinaID" Type="Clanarina" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Porudzbenica" Member="Porudzbenicas">
+    <Type Name="Porudzbenica">
+      <Column Name="PorudzbenicaID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DatumKreiranja" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="CenaPorudzbenice" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="RadnikID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DobavljacID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Porudzbenica_StavkaPorudzbenice" Member="StavkaPorudzbenices" ThisKey="PorudzbenicaID" OtherKey="PorudzbenicaID" Type="StavkaPorudzbenice" />
+      <Association Name="Dobavljac_Porudzbenica" Member="Dobavljac" ThisKey="DobavljacID" OtherKey="DobavljacID" Type="Dobavljac" IsForeignKey="true" />
+      <Association Name="Radnik_Porudzbenica" Member="Radnik" ThisKey="RadnikID" OtherKey="RadnikID" Type="Radnik" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Proizvod" Member="Proizvods">
+    <Type Name="Proizvod">
+      <Column Name="ProizvodID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="NazivProizvoda" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Kolicina" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="NabavnaCena" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="ProdajnaCena" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Association Name="Proizvod_StavkaPorudzbenice" Member="StavkaPorudzbenices" ThisKey="ProizvodID" OtherKey="ProizvodID" Type="StavkaPorudzbenice" />
+      <Association Name="Proizvod_StavkaRacuna" Member="StavkaRacunas" ThisKey="ProizvodID" OtherKey="ProizvodID" Type="StavkaRacuna" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Racun" Member="Racuns">
+    <Type Name="Racun">
+      <Column Name="RacunID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="DatumKreiranja" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="CenaRacuna" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="KlijentID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Uknjizen" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+      <Association Name="Racun_StavkaRacuna" Member="StavkaRacunas" ThisKey="RacunID" OtherKey="RacunID" Type="StavkaRacuna" />
+      <Association Name="Klijent_Racun" Member="Klijent" ThisKey="KlijentID" OtherKey="KlijentID" Type="Klijent" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Radnik" Member="Radniks">
+    <Type Name="Radnik">
+      <Column Name="RadnikID" Type="System.String" DbType="NVarChar(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="Ime" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Prezime" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="Sifra" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DatumRodjenja" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="Adresa" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="BrojTelefona" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="Radnik_Porudzbenica" Member="Porudzbenicas" ThisKey="RadnikID" OtherKey="RadnikID" Type="Porudzbenica" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StavkaPorudzbenice" Member="StavkaPorudzbenices">
+    <Type Name="StavkaPorudzbenice">
+      <Column Name="PorudzbenicaID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StavkaID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProizvodID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NazivStavke" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CenaStavke" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Kolicina" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Porudzbenica_StavkaPorudzbenice" Member="Porudzbenica" ThisKey="PorudzbenicaID" OtherKey="PorudzbenicaID" Type="Porudzbenica" IsForeignKey="true" />
+      <Association Name="Proizvod_StavkaPorudzbenice" Member="Proizvod" ThisKey="ProizvodID" OtherKey="ProizvodID" Type="Proizvod" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.StavkaRacuna" Member="StavkaRacunas">
+    <Type Name="StavkaRacuna">
+      <Column Name="RacunID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="StavkaID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ProizvodID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="NazivStavke" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="CenaStavke" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="Kolicina" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="Proizvod_StavkaRacuna" Member="Proizvod" ThisKey="ProizvodID" OtherKey="ProizvodID" Type="Proizvod" IsForeignKey="true" />
+      <Association Name="Racun_StavkaRacuna" Member="Racun" ThisKey="RacunID" OtherKey="RacunID" Type="Racun" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
