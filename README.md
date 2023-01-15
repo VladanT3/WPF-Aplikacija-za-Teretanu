@@ -1,6 +1,8 @@
 # WPF-Aplikacija-za-Teretanu
 -Aplikacija na temu "Teretana". Radjenja u WPF-u i SQL-u sa detaljnom dokumentacijom i UML dijagramima (sekvnecijalni, kolaboracioni i use case)
+
 -Dosta slika ima isti naziv tako da je najbolje da se ne pomeraju iz svojih foldera!
+
 -Neke od skraćenica:
 1. SK - slučaj korišćenja (use case)
 2. OS - osnovni scenario (slike korišćene u osnovnom scenariu slučajeva korišćenja)
