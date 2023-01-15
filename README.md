@@ -10,7 +10,7 @@
 4. Brojevi kao što su 2_1, 2_2, 2_1_1 itd. služe da povežu slike sa svojim alternativnim scenariom (npr. slika AS 2_1 se odnosi na alternativni scenario 2.1. u svom slučaju korišćenja.
 5. UG - ugovori (funkcije koje se koriste u samom programu i služe za komunikaciju sa bazom podataka).
 
--Teretana.rar fajl je aplikacija.
+-Teretana.rar fajl je aplikacija. Kompresovan originalni folder aplikacije u slučaju da ne može da se pokrene iz foldera "Teretana".
 
 -Teretana.sql fajl je skripta baze podataka.
 
