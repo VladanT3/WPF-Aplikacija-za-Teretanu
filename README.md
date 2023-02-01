@@ -14,6 +14,8 @@
 
 -TeretanaBaza.sql fajl je skripta baze podataka.
 
+-Teretana.bak fajl je backup baze podataka.
+
 -U folderu "Dijagrami" se nalaze svi dijagrami korišćeni u dokumentaciji u svojim respektivnim folderima čiji naziv pokazuje gde su tačno korišćeni.
 
 -Folder "Tabele" služi za slike tabela u bazi.
