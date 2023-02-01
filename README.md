@@ -12,9 +12,9 @@
 
 -Teretana.rar fajl je aplikacija. Kompresovan originalni folder aplikacije u slučaju da ne može da se pokrene iz foldera "Teretana".
 
--TeretanaBaza.sql fajl je skripta baze podataka.
+-TeretanaScript.sql fajl je skripta baze podataka.
 
--Teretana.bak fajl je backup baze podataka.
+-TeretanaBackup.bak fajl je backup baze podataka.
 
 -U folderu "Dijagrami" se nalaze svi dijagrami korišćeni u dokumentaciji u svojim respektivnim folderima čiji naziv pokazuje gde su tačno korišćeni.
 
