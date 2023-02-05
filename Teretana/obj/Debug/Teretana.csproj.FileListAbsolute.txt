@@ -1,0 +1,76 @@
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\bin\Debug\Teretana.exe.config
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\bin\Debug\Teretana.exe
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\bin\Debug\Teretana.pdb
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana.csproj.AssemblyReference.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormClanarina.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormKreiranjeNaloga.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormLogovanje.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormNalog.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormOcitavanje.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormPorudzbenica.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormProizvodi.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormRacuni.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\MainWindow.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\App.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana_MarkupCompile.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana_MarkupCompile.lref
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormClanarina.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormKreiranjeNaloga.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormLogovanje.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormNalog.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormOcitavanje.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormPorudzbenica.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormProizvodi.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormRacuni.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\MainWindow.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana.g.resources
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana.Properties.Resources.resources
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana.csproj.GenerateResource.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana.csproj.CoreCompileInputs.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana.exe
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\Teretana.pdb
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormProdavnica.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\FormProdavnica.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\RadnikHomePage.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\RadnikHomePage.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\KlijentHomePage.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Projekat za teretanu\Teretana\obj\Debug\KlijentHomePage.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\bin\Debug\Teretana.exe.config
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\bin\Debug\Teretana.exe
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\bin\Debug\Teretana.pdb
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana.csproj.AssemblyReference.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana.csproj.SuggestedBindingRedirects.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormClanarina.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormKreiranjeNaloga.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormLogovanje.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormNalog.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormOcitavanje.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormPorudzbenica.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormProdavnica.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormProizvodi.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormRacuni.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\KlijentHomePage.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\MainWindow.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\RadnikHomePage.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\App.g.cs
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana_MarkupCompile.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana_MarkupCompile.lref
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormClanarina.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormKreiranjeNaloga.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormLogovanje.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormNalog.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormOcitavanje.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormPorudzbenica.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormProdavnica.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormProizvodi.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\FormRacuni.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\KlijentHomePage.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\MainWindow.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\RadnikHomePage.baml
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana.g.resources
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana.Properties.Resources.resources
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana.csproj.GenerateResource.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana.csproj.CoreCompileInputs.cache
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana.exe
+C:\Users\Vladan\Desktop\IT Projects\Projects\Teretana - Projekat iz praktikuma primenjenog programiranja\Teretana\obj\Debug\Teretana.pdb
