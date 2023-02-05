@@ -1,0 +1,17 @@
+﻿<Window x:Class="Teretana.KlijentHomePage"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teretana"
+        mc:Ignorable="d"
+        Title="KlijentHomePage" Height="241" Width="208">
+    <Grid Height="241" Width="219">
+        <Button Name="btnClanarina" Content="Kupi clanarinu" HorizontalAlignment="Left" Margin="21,44,0,0" VerticalAlignment="Top" Height="26" Width="148" Click="btnClanarina_Click"/>
+        <Button Name="btnProdavnica" Content="Prodavnica" HorizontalAlignment="Left" Margin="21,96,0,0" VerticalAlignment="Top" Height="26" Width="148" Click="btnProdavnica_Click"/>
+        <Button Name="btnNalog" Content="Nalog" HorizontalAlignment="Left" Margin="21,149,0,0" VerticalAlignment="Top" Height="26" Width="148" Click="btnNalog_Click"/>
+        <Menu Margin="0,0,0,220" Background="White">
+            <MenuItem Name="menuLogOut" Header="Izloguj se" Click="menuLogOut_Click"/>
+        </Menu>
+    </Grid>
+</Window>

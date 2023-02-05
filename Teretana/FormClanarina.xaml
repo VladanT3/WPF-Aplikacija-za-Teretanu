@@ -1,0 +1,35 @@
+﻿<Window x:Class="Teretana.FormClanarina"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Teretana"
+        mc:Ignorable="d"
+        Title="FormClanarina" Height="214" Width="630">
+    <Grid Height="167" Width="593">
+        <GroupBox Header="Basic" Margin="28,9,389,35">
+            <Grid>
+                <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="1 Mesec" VerticalAlignment="Top"/>
+                <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="12 Termina" VerticalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Center" Margin="0,74,0,0" TextWrapping="Wrap" Text="2500 dinara" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Classic" Margin="209,9,208,35">
+            <Grid>
+                <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="1 Mesec" VerticalAlignment="Top"/>
+                <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="16 Termina" VerticalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Center" Margin="0,74,0,0" TextWrapping="Wrap" Text="3000 dinara" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+        <GroupBox Header="Elite" Margin="390,9,27,35">
+            <Grid>
+                <TextBlock HorizontalAlignment="Center" Margin="0,10,0,0" TextWrapping="Wrap" Text="1 Mesec" VerticalAlignment="Top"/>
+                <TextBlock HorizontalAlignment="Center" TextWrapping="Wrap" Text="31 Termin" VerticalAlignment="Center"/>
+                <TextBlock HorizontalAlignment="Center" Margin="0,74,0,0" TextWrapping="Wrap" Text="3500 dinara" VerticalAlignment="Top"/>
+            </Grid>
+        </GroupBox>
+        <Button Name="btnBasic" Content="Izaberi" HorizontalAlignment="Left" Margin="92,137,0,0" VerticalAlignment="Top" Width="48" Click="btnBasic_Click"/>
+        <Button Name="btnClassic" Content="Izaberi" HorizontalAlignment="Center" Margin="0,137,0,0" VerticalAlignment="Top" Width="50" Click="btnClassic_Click"/>
+        <Button Name="btnElite" Content="Izaberi" HorizontalAlignment="Left" Margin="454,137,0,0" VerticalAlignment="Top" Width="48" Click="btnElite_Click"/>
+    </Grid>
+</Window>
